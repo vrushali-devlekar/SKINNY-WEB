@@ -33,16 +33,16 @@ main {
 main section.nav {
   max-width: 1800px;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 0.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 main section.nav h3 {
-  border: 2px solid #121212;
-  padding: 0.7rem 1rem;
+  border: 1.5px solid #121212;
+  padding: 0.4rem 0.6rem;
   border-radius: 1.7rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 main section.nav h3:hover {
   background-color: #0D1218;
@@ -147,6 +147,7 @@ main section.view3 .card .part1 img {
 main section.view3 .card .part2 h2 {
   font-family: roboto;
   font-size: 1.1rem;
+  font-weight: 400;
 }
 main section.view3 .card .part2 p {
   font-size: 0.7rem;
@@ -200,6 +201,7 @@ main section.view4 .card .part1 {
 main section.view4 .card .part1 h1 {
   font-size: 1.6rem;
   padding: 1.6rem 2rem;
+  font-weight: 400;
 }
 main section.view4 .card .part2 {
   display: flex;
@@ -265,6 +267,7 @@ main section.view5 .card .left {
 }
 main section.view5 .card .left .text h2 {
   font-size: 1.3rem;
+  font-weight: 400;
 }
 main section.view5 .card .left .text p {
   font-size: 0.7rem;
@@ -313,6 +316,26 @@ main section.footer .card .link i {
 }
 
 @media (min-width: 760px) {
+  main section.nav {
+    max-width: 1800px;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main section.nav h3 {
+    border: 2px solid #121212;
+    padding: 0.7rem 1rem;
+    border-radius: 1.7rem;
+    font-size: 1rem;
+  }
+  main section.nav h3:hover {
+    background-color: #0D1218;
+    color: #edecec;
+    transition: all ease 0.8s;
+    cursor: pointer;
+  }
   main section.nav-hero {
     display: flex;
     align-items: center;
@@ -346,7 +369,7 @@ main section.footer .card .link i {
   main section.nav-hero .card .center .left .first h1 {
     font-size: 3rem;
     font-family: roboto;
-    font-weight: 500;
+    font-weight: 400;
   }
   main section.nav-hero .card .center .left .first p {
     font-size: 1.1rem;
@@ -419,6 +442,7 @@ main section.footer .card .link i {
   }
   main section.view3 .card .part2 h2 {
     font-size: 2rem;
+    font-weight: 400;
   }
   main section.view3 .card .part2 p {
     font-size: 1rem;
